@@ -1,0 +1,25 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Node / build
+node_modules
+dist
+.next
+out
+build
+.pnpm-store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+logs
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode
+.idea
